@@ -1,5 +1,7 @@
 // Problem: https://leetcode.com/problems/sort-by/description/
 
+export {};
+
 type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
 type Fn = (value: JSONValue) => number
 
