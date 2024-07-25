@@ -1,3 +1,5 @@
+export {};
+
 type Counter = {
     increment: () => number,
     decrement: () => number,
