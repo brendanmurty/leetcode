@@ -1,27 +1,27 @@
 export {};
 
 type Counter = {
-    increment: () => number,
-    decrement: () => number,
-    reset: () => number,
+  increment: () => number,
+  decrement: () => number,
+  reset: () => number,
 }
 
 function createCounter(init: number): Counter {
-    let current: number = init;
+  let current: number = init;
 
-    return {
-        increment: () => {
-            current++;
-            return current;
-        },
-        decrement: () => {
-            current--;
-            return current;
-        },
-        reset: () => {
-            current = init;
-            return current;
-        },
-    }
+  return {
+    increment: () => {
+      current++;
+      return current;
+    },
+    decrement: () => {
+      current--;
+      return current;
+    },
+    reset: () => {
+      current = init;
+      return current;
+    },
+  }
     
 };
