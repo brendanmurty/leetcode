@@ -1,4 +1,7 @@
 <?
+
+// Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+
 class Solution {
 
   /**
@@ -22,4 +25,5 @@ class Solution {
     return count($nums);
   }
 }
+
 ?>

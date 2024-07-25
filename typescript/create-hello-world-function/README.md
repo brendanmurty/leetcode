@@ -1,1 +1,0 @@
-[Link to problem](https://leetcode.com/problems/create-hello-world-function/description/)

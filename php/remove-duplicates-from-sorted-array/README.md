@@ -1,1 +1,0 @@
-[Link to problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)

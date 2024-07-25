@@ -1,3 +1,5 @@
+// Problem: https://leetcode.com/problems/to-be-or-not-to-be/description/
+
 type ToBeOrNotToBe = {
   toBe: (val: any) => boolean;
   notToBe: (val: any) => boolean;
